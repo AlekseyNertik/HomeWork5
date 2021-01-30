@@ -21,6 +21,5 @@ public class Main {
                 //System.out.println("  Телефон: "+person[i].phone+"   зарплата: "+person[i].salary+"  возраст: "+person[i].age);
             }
         }
-
     }
 }
