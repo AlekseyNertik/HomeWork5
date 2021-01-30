@@ -16,9 +16,6 @@ public class Main {
             if (person[i].age>40)
             {
                 person[i].printInfo();
-                // вывод сотрудников старше 40
-                //System.out.print("Имя: "+person[i].name+"  Должность: "+person[i].working+"  E-mail: "+person[i].eMail);
-                //System.out.println("  Телефон: "+person[i].phone+"   зарплата: "+person[i].salary+"  возраст: "+person[i].age);
             }
         }
     }
