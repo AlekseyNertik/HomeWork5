@@ -1,0 +1,26 @@
+public class Main {
+
+    public static void main(String[] args)
+    {
+        Employee[] person = new Employee[5];
+// заполняю поля
+        person[0] = new Employee("Ivanov", "ingeneer1", "ivanov1@mail.ru", "12345678", 30000, 20);
+        person[1] = new Employee("Petrov", "ingeneer2", "petrov@mail.ru", "23456789", 30000, 38);
+        person[2] = new Employee("Sidorov","ingeneer3", "sidorov@mail.ru","11223344", 45000, 41);
+        person[3] = new Employee("Pupkin", "Chif ingeneer", "pupkin@mail.ru", "22334455", 50000, 45);
+        person[4] = new Employee("Vasechkin", "Chif", "vasechkin@mail.ru", "00998877", 90000, 55);
+
+        // поиск старше 40
+        for (int i=0; i < person.length; i++)
+        {
+            if (person[i].age>40)
+            {
+                person[i].printInfo();
+                // вывод сотрудников старше 40
+                //System.out.print("Имя: "+person[i].name+"  Должность: "+person[i].working+"  E-mail: "+person[i].eMail);
+                //System.out.println("  Телефон: "+person[i].phone+"   зарплата: "+person[i].salary+"  возраст: "+person[i].age);
+            }
+        }
+
+    }
+}
