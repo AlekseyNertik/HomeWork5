@@ -1,0 +1,32 @@
+public class Employee { //создал класс
+
+    String name;
+    String working;
+    String eMail;
+    String phone;
+    int salary;
+    int age;
+
+    // использую конструктор, прописываю поля
+    public Employee(String name, String working, String eMail, String phone, int salary, int age)
+     {
+        this.name = name;
+        this.working = working;
+       this.eMail = eMail;
+        this.phone = phone;
+        this.salary = salary;
+        this.age = age;
+    }
+
+    public void printInfo ()
+    {
+        System.out.println("Имя      : "+name);
+        System.out.println("Должность: "+working);
+        System.out.println("E-mail   : "+eMail);
+        System.out.println("Телефон  : "+phone);
+        System.out.println("Зарплата : "+salary);
+        System.out.println("Возраст  : "+age);
+        System.out.println();
+    }
+
+}
